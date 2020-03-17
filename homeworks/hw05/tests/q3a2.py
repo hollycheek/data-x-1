@@ -1,10 +1,9 @@
 test = {   'name': 'q3a2',
-    'points': 1,
-    'suites': [   {   'cases': [   {   'code': '>>> hasattr(logreg_model, '
-                                               "'coef_') and "
-                                               'hasattr(logreg_model, '
-                                               "'intercept_')\n"
-                                               'True',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': '>>> C == 1e-3\nTrue',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> test_size == 0.2\nTrue',
                                        'hidden': False,
                                        'locked': False}],
                       'scored': True,
